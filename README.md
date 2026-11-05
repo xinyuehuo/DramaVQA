@@ -54,7 +54,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <a name="qa-examples"></a>
 
-## 🎞️ QA Examples
+## 💬 QA Examples
 
 Explore one question from each of the **7 major categories**, paired with its **L2 video scene**. Switch examples with the arrows and reveal the answer after watching.
 
