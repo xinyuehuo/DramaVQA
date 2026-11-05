@@ -7,7 +7,7 @@
 <a href="https://huggingface.co/datasets/198808xc/drama_bench_data"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-ffd21e" alt="Videos and metadata on Hugging Face"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3d8a6a" alt="MIT License"></a>
 
-<p><a href="https://arxiv.org/abs/2611.00769">Paper</a> · <a href="#question-categories">Categories</a> · <a href="#data">Data</a> · <a href="#evaluation">Evaluation</a> · <a href="#leaderboard">Leaderboard</a> · <a href="#citation">Citation</a></p>
+<p><a href="https://arxiv.org/abs/2611.00769">Paper</a> · <a href="#question-categories">Categories</a> · <a href="#qa-examples">QA Examples</a> · <a href="#data">Data</a> · <a href="#evaluation">Evaluation</a> · <a href="#leaderboard">Leaderboard</a> · <a href="#citation">Citation</a></p>
 
 </div>
 
@@ -51,6 +51,18 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 | Relation & Logical Reasoning | 1,868 | Human-Object Relation; Character Relation; Causal Inference |
 | Counting | 1,776 | Object Counting; Quantity Comparison |
 | **Total** | **20,000** | **28 subcategories** |
+
+<a name="qa-examples"></a>
+
+## 🎞️ QA Examples
+
+Explore one question from each of the **7 major categories**, paired with its **L2 video scene**. Switch examples with the arrows and reveal the answer after watching.
+
+<p align="center">
+  <a href="https://xinyuehuo.github.io/DramaVQA/"><img src="assets/qa_examples_preview.png" width="860" alt="DramaVQA interactive QA gallery: seven category tabs, a scene video, multiple-choice question, and previous/next controls."></a>
+</p>
+
+<p align="center"><a href="https://xinyuehuo.github.io/DramaVQA/"><strong>Open the interactive gallery →</strong></a></p>
 
 <a name="data"></a>
 

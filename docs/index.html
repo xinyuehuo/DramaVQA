@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f7f9">
+  <meta name="description" content="Explore seven representative DramaVQA questions with their original L2 video clips. Watch, choose an answer, and browse all seven question categories.">
+  <title>QA Examples · DramaVQA</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script defer src="examples.js"></script>
+  <script defer src="gallery.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="https://github.com/xinyuehuo/DramaVQA" aria-label="DramaVQA GitHub repository"><span class="brand-mark" aria-hidden="true">D<span>▶</span></span>DramaVQA</a>
+    <nav aria-label="Project"><a href="https://arxiv.org/abs/2611.00769">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/xinyuehuo/DramaVQA">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <div class="introduction">
+      <div><p class="eyebrow">A CLOSER LOOK AT THE BENCHMARK</p><h1>QA Examples<span class="title-dot">.</span></h1><p class="intro-copy">Watch the scene. Find the answer.</p></div>
+      <p class="collection-note"><strong>7 categories</strong><span>Original questions · Full benchmark</span></p>
+    </div>
+    <div id="categories" class="categories" role="tablist" aria-label="Question categories"></div>
+    <section id="example-panel" class="example-panel" role="tabpanel" aria-label="Question example">
+      <div class="example-topline"><span class="scene-label"><i aria-hidden="true"></i><span id="drama-name"></span><span class="separator">/</span><span id="episode-name"></span></span><span class="l2-label">L2 SCENE</span></div>
+      <div class="example-grid">
+        <div class="media-column">
+          <div class="player" id="player">
+            <video id="scene" playsinline preload="none" aria-label="Video scene for the current question"></video>
+            <button class="big-play" id="big-play" aria-label="Play scene"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg></button>
+            <div class="video-message" id="video-message" role="status" hidden></div>
+            <div class="player-controls">
+              <button id="play" class="icon-button" aria-label="Play scene"><svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg></button>
+              <span id="elapsed" class="player-time">0:00</span>
+              <input id="seek" type="range" min="0" max="1" step="0.1" value="0" aria-label="Position in scene">
+              <span id="duration" class="player-time">0:00</span>
+              <button id="mute" class="icon-button" aria-label="Mute audio" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4Z"/><path class="sound-wave" d="M17 8a6 6 0 0 1 0 8" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+              <button id="fullscreen" class="icon-button" aria-label="Full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4"/></svg></button>
+            </div>
+          </div>
+          <div class="clip-caption"><span id="clip-range"></span><a id="source-video" target="_blank" rel="noopener">Source video <span aria-hidden="true">↗</span></a></div>
+          <p class="scene-hint">Watch the full scene before choosing your answer.</p>
+        </div>
+        <div class="question-column">
+          <p id="subcategory" class="subcategory"></p>
+          <h2 id="question"></h2>
+          <div id="options" class="options" role="group" aria-label="Answer options"></div>
+          <div class="answer-actions"><button id="reveal" class="reveal-button" aria-expanded="false">Show answer <span aria-hidden="true">↗</span></button><a id="annotation" target="_blank" rel="noopener">View annotation</a></div>
+          <p id="answer-feedback" class="answer-feedback" aria-live="polite" hidden></p>
+        </div>
+      </div>
+      <div class="gallery-navigation">
+        <button id="previous" class="navigation-button"><span aria-hidden="true">←</span> Previous</button>
+        <div class="example-progress"><span id="progress">01 <span>/ 07</span></span><span class="keyboard-hint">Use ← → to browse</span><span id="announcement" class="sr-only" aria-live="polite"></span></div>
+        <button id="next" class="navigation-button">Next <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+    <footer><p>One representative question from each major category.</p><a href="https://github.com/xinyuehuo/DramaVQA#question-categories">Explore the full taxonomy <span aria-hidden="true">↗</span></a></footer>
+    <noscript><p>This gallery needs JavaScript to switch examples. <a href="https://github.com/xinyuehuo/DramaVQA/tree/main/DramaVQA/Bench_Data">Browse the question annotations on GitHub.</a></p></noscript>
+  </main>
+</body>
+</html>
