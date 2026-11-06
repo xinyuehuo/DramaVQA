@@ -1,11 +1,17 @@
 <div align="center">
 
-<h1><img src="assets/logo/dramavqa-mark.png" alt="DramaVQA logo" width="60" height="72" align="absmiddle">&nbsp;DramaVQA</h1>
-<p><strong>Probing Detailed Understanding of Ultra-Long TV Dramas</strong></p>
+<p>
+  <picture>
+    <source media="(max-width: 480px)" srcset="assets/logo/dramavqa-header-mobile.png">
+    <img src="assets/logo/dramavqa-header.png" width="960" alt="DramaVQA — Probing Detailed Understanding of Ultra-Long TV Dramas">
+  </picture>
+</p>
 
-<a href="https://arxiv.org/abs/2611.00769"><img src="https://img.shields.io/badge/arXiv-2611.00769-b31b1b" alt="Paper on arXiv"></a>
-<a href="https://huggingface.co/datasets/198808xc/drama_bench_data"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-ffd21e" alt="Videos and metadata on Hugging Face"></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3d8a6a" alt="MIT License"></a>
+<p>
+  <a href="https://arxiv.org/abs/2611.00769"><img src="assets/badges/paper.svg" height="28" alt="arXiv Paper"></a> &nbsp;
+  <a href="https://huggingface.co/datasets/198808xc/drama_bench_data"><img src="assets/badges/dataset.svg" height="28" alt="Hugging Face Dataset"></a> &nbsp;
+  <a href="LICENSE"><img src="assets/badges/license.svg" height="28" alt="MIT License"></a>
+</p>
 
 <p><a href="https://arxiv.org/abs/2611.00769">Paper</a> · <a href="#question-categories">Categories</a> · <a href="#qa-examples">QA Examples</a> · <a href="#data">Data</a> · <a href="#evaluation">Evaluation</a> · <a href="#leaderboard">Leaderboard</a> · <a href="#citation">Citation</a></p>
 
