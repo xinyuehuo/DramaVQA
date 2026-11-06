@@ -25,6 +25,8 @@ DramaVQA benchmarks detailed understanding of ultra-long TV dramas. We process *
 
 The evaluation benchmark includes **20,000 single-point questions (Full)**, a **2,000-question single-point Mini subset**, **3,200 multi-point questions**, and **1,200 multi-hop questions**. These tasks probe detailed visual understanding, information integration, and reasoning across long narratives.
 
+https://github.com/user-attachments/assets/22102063-de91-463e-84b2-24afe965220d
+
 <a name="data-generation"></a>
 
 ### ⚙️ Data generation
@@ -71,7 +73,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="left"><img src="assets/qa_examples/V16.jpg" width="740" alt="Friends: still from the L2 scene for Visual Perception"></p>
+https://github.com/user-attachments/assets/3b51bb04-c23d-474f-9bf5-62a7fa6f6591
 
 </div>
 
@@ -90,7 +92,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="left"><img src="assets/qa_examples/S4.jpg" width="740" alt="Three-Body: still from the L2 scene for Spatial Understanding"></p>
+https://github.com/user-attachments/assets/9728372a-fc6b-4514-9cda-c1beaf5a1cd9
 
 </div>
 
@@ -109,7 +111,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="left"><img src="assets/qa_examples/A7.jpg" width="740" alt="The Qin Empire II: Alliance: still from the L2 scene for Action and Interaction"></p>
+https://github.com/user-attachments/assets/5563e2c4-7469-4489-a0a1-9ce888dfa810
 
 </div>
 
@@ -128,7 +130,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="left"><img src="assets/qa_examples/E5.jpg" width="740" alt="Ode to Joy: still from the L2 scene for Event Understanding"></p>
+https://github.com/user-attachments/assets/5d3e77cb-ea17-4419-bc08-bb88ef3c941b
 
 </div>
 
@@ -147,7 +149,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="left"><img src="assets/qa_examples/T1.jpg" width="740" alt="The Knockout: still from the L2 scene for Temporal Understanding"></p>
+https://github.com/user-attachments/assets/6dc8c7dc-841a-4ff4-b3a9-3ac02d64601e
 
 </div>
 
@@ -166,7 +168,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="left"><img src="assets/qa_examples/R4.jpg" width="740" alt="Minning Town: still from the L2 scene for Relation &amp; Logical Reasoning"></p>
+https://github.com/user-attachments/assets/60661ad8-d68b-4cb4-90cc-7b3c4343f9da
 
 </div>
 
@@ -185,7 +187,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="left"><img src="assets/qa_examples/C3.jpg" width="740" alt="The Long Night: still from the L2 scene for Counting"></p>
+https://github.com/user-attachments/assets/bf142a09-e1e0-41dd-96c3-af66719e0a91
 
 </div>
 
