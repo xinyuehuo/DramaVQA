@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>DramaVQA</h1>
+<h1><img src="assets/logo/dramavqa-mark.png" alt="DramaVQA logo" width="60" height="72" align="absmiddle">&nbsp;DramaVQA</h1>
 <p><strong>Probing Detailed Understanding of Ultra-Long TV Dramas</strong></p>
 
 <a href="https://arxiv.org/abs/2611.00769"><img src="https://img.shields.io/badge/arXiv-2611.00769-b31b1b" alt="Paper on arXiv"></a>
