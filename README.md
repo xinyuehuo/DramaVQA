@@ -56,13 +56,260 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 ## 📝 QA Examples
 
-Explore one question from each of the **7 major categories**, paired with its **L2 video scene**. Switch examples with the arrows and reveal the answer after watching.
+<details name="qa-examples" open>
+<summary><strong>V16 · Visual Perception / 视觉感知 · Friends / 老友记</strong></summary>
 
-<p align="center">
-  <a href="https://xinyuehuo.github.io/DramaVQA/"><img src="assets/qa_examples_preview.png" width="860" alt="DramaVQA interactive QA gallery: seven category tabs, a scene video, multiple-choice question, and previous/next controls."></a>
-</p>
+<div class="qa-body">
 
-<p align="center"><a href="https://xinyuehuo.github.io/DramaVQA/"><strong>Open the interactive gallery →</strong></a></p>
+<div class="qa-heading">
+
+<p class="qa-subcategory"><strong>Character Clothing / 人物服装</strong></p>
+
+<p class="qa-question"><strong>In the final shot of Gunther after he drops the cup, what is the specific symbol and its color on his red vest?</strong><br><span lang="zh-CN">在杯子掉落后 Gunther 的最后一个镜头里，他的红色马甲上是什么符号、什么颜色？</span></p>
+
+</div>
+
+<div class="qa-media">
+
+<p align="center"><img src="assets/qa_examples/V16.jpg" width="740" alt="Friends: still from the L2 scene for Visual Perception"></p>
+
+</div>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">A black club symbol<br><span lang="zh-CN">黑色梅花符号</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">A white spade symbol<br><span lang="zh-CN">白色黑桃符号</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">A green circle symbol<br><span lang="zh-CN">绿色圆圈符号</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">A yellow diamond symbol<br><span lang="zh-CN">黄色菱形符号</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">A blue star symbol<br><span lang="zh-CN">蓝色星形符号</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">A red heart symbol<br><span lang="zh-CN">红色爱心符号</span></span></p></td></tr></tbody></table>
+
+<details class="qa-answer">
+<summary>Answer / 答案</summary>
+
+**A. A black club symbol / 黑色梅花符号**
+
+</details>
+
+</div>
+
+<!-- V16: DramaVQA/Bench_Data/friends.json | /1238/Q&A/1 | L2: 0067-00:00:00.000_0067-00:01:08.204. Source annotation unchanged; second-language text is a display translation. -->
+
+</details>
+
+<details name="qa-examples">
+<summary><strong>S4 · Spatial Understanding / 空间理解 · Three-Body / 三体</strong></summary>
+
+<div class="qa-body">
+
+<div class="qa-heading">
+
+<p class="qa-subcategory"><strong>Spatial Location / 空间位置</strong></p>
+
+<p class="qa-question"><strong>On the golden sea nineteen years earlier, where on the large ship is the circular helipad located?</strong><br><span lang="zh-CN">19年前的金色海洋上，巨轮的圆形停机坪位于船体的哪个位置？</span></p>
+
+</div>
+
+<div class="qa-media">
+
+<p align="center"><img src="assets/qa_examples/S4.jpg" width="740" alt="Three-Body: still from the L2 scene for Spatial Understanding"></p>
+
+</div>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">On the starboard deck<br><span lang="zh-CN">右侧甲板</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">At the stern<br><span lang="zh-CN">船尾</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">In the middle of the ship<br><span lang="zh-CN">船体中部</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">On the port deck<br><span lang="zh-CN">左侧甲板</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">On top of the bridge<br><span lang="zh-CN">驾驶舱顶部</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">At the bow<br><span lang="zh-CN">船头</span></span></p></td></tr></tbody></table>
+
+<details class="qa-answer">
+<summary>Answer / 答案</summary>
+
+**F. At the bow / 船头**
+
+</details>
+
+</div>
+
+<!-- S4: DramaVQA/Bench_Data/three_body.json | /414/Q&A/0 | L2: 0019-00:06:52.680_0019-00:07:52.720. Source annotation unchanged; second-language text is a display translation. -->
+
+</details>
+
+<details name="qa-examples">
+<summary><strong>A7 · Action and Interaction / 动作与交互 · The Qin Empire II: Alliance / 大秦帝国之纵横</strong></summary>
+
+<div class="qa-body">
+
+<div class="qa-heading">
+
+<p class="qa-subcategory"><strong>Body Movement / 身体动作</strong></p>
+
+<p class="qa-question"><strong>Just as Zhao Yang is about to enter the residence, what specific movement does Zhang Yi make to block his departure and keep the conversation going?</strong><br><span lang="zh-CN">在昭阳即将进入府门的那一刻，张仪为了阻止他离开并继续对话，采取了什么具体的拦截动作？</span></p>
+
+</div>
+
+<div class="qa-media">
+
+<p align="center"><img src="assets/qa_examples/A7.jpg" width="740" alt="The Qin Empire II: Alliance: still from the L2 scene for Action and Interaction"></p>
+
+</div>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">He draws his sword and holds it across the entrance<br><span lang="zh-CN">拔出佩剑横在门前</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">He kneels and clings to Zhao Yang's legs<br><span lang="zh-CN">跪在地上抱住昭阳的腿</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">He quickly closes the gate<br><span lang="zh-CN">迅速关上府门</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">He shouts loudly for the guards<br><span lang="zh-CN">大声呼喊卫兵</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">He grabs Zhao Yang's shoulder<br><span lang="zh-CN">用手抓住昭阳的肩膀</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">He spreads both arms to block the way<br><span lang="zh-CN">伸开双臂拦住去路</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>G.</strong> <span class="qa-option-copy">He throws his body against Zhao Yang<br><span lang="zh-CN">用身体撞向昭阳</span></span></p></td><td class="qa-empty"></td></tr></tbody></table>
+
+<details class="qa-answer">
+<summary>Answer / 答案</summary>
+
+**F. He spreads both arms to block the way / 伸开双臂拦住去路**
+
+</details>
+
+</div>
+
+<!-- A7: DramaVQA/Bench_Data/qin_empire_2.json | /154/Q&A/0 | L2: 0009-00:03:36.120_0009-00:04:44.120. Source annotation unchanged; second-language text is a display translation. -->
+
+</details>
+
+<details name="qa-examples">
+<summary><strong>E5 · Event Understanding / 事件理解 · Ode to Joy / 欢乐颂</strong></summary>
+
+<div class="qa-body">
+
+<div class="qa-heading">
+
+<p class="qa-subcategory"><strong>Event Outcome / 事件结果</strong></p>
+
+<p class="qa-question"><strong>At the science museum, what is the final result of Andy and Wei Wei's competition on the "Sharp Eyes, Quick Hands" game?</strong><br><span lang="zh-CN">在科技馆内，安迪和魏渭进行的“眼明手快”游戏比赛，最终的结果是什么？</span></p>
+
+</div>
+
+<div class="qa-media">
+
+<p align="center"><img src="assets/qa_examples/E5.jpg" width="740" alt="Ode to Joy: still from the L2 scene for Event Understanding"></p>
+
+</div>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">Wei Wei wins<br><span lang="zh-CN">魏渭取得了胜利</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">The machine malfunctions and the competition is interrupted<br><span lang="zh-CN">游戏机出现故障，比赛中断</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">They do not finish because they disagree about the rules<br><span lang="zh-CN">两人因规则分歧没有完成比赛</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">Andy wins by a narrow margin<br><span lang="zh-CN">安迪以微弱优势获胜</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">They tie<br><span lang="zh-CN">两人打成了平手</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">Andy gives up partway through<br><span lang="zh-CN">安迪中途放弃了比赛</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>G.</strong> <span class="qa-option-copy">The result is not shown<br><span lang="zh-CN">比赛结果没有显示</span></span></p></td><td class="qa-empty"></td></tr></tbody></table>
+
+<details class="qa-answer">
+<summary>Answer / 答案</summary>
+
+**A. Wei Wei wins / 魏渭取得了胜利**
+
+</details>
+
+</div>
+
+<!-- E5: DramaVQA/Bench_Data/ode_to_joy_1.json | /204/Q&A/1 | L2: 0011-00:07:49.600_0011-00:09:02.000. Source annotation unchanged; second-language text is a display translation. -->
+
+</details>
+
+<details name="qa-examples">
+<summary><strong>T1 · Temporal Understanding / 时间理解 · The Knockout / 狂飙</strong></summary>
+
+<div class="qa-body">
+
+<div class="qa-heading">
+
+<p class="qa-subcategory"><strong>Temporal Sequence / 时间顺序</strong></p>
+
+<p class="qa-question"><strong>What is the first thing Lao Mo does immediately after finishing his prayer?</strong><br><span lang="zh-CN">老默在完成祈祷之后，他紧接着做的第一件事是什么？</span></p>
+
+</div>
+
+<div class="qa-media">
+
+<p align="center"><img src="assets/qa_examples/T1.jpg" width="740" alt="The Knockout: still from the L2 scene for Temporal Understanding"></p>
+
+</div>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">Tidies the shrine<br><span lang="zh-CN">整理神龛</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">Takes off his apron<br><span lang="zh-CN">脱下围裙</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">Blows out the incense<br><span lang="zh-CN">吹灭香火</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">Softly calls out to Yaoyao<br><span lang="zh-CN">轻声呼唤瑶瑶</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">Picks up the black cloth bag<br><span lang="zh-CN">提起黑布包</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">Puts on his coat<br><span lang="zh-CN">换上外套</span></span></p></td></tr></tbody></table>
+
+<details class="qa-answer">
+<summary>Answer / 答案</summary>
+
+**D. Softly calls out to Yaoyao / 轻声呼唤瑶瑶**
+
+</details>
+
+</div>
+
+<!-- T1: DramaVQA/Bench_Data/the_knockout.json | /510/Q&A/3 | L2: 0024-00:26:46.160_0024-00:27:39.600. Source annotation unchanged; second-language text is a display translation. -->
+
+</details>
+
+<details name="qa-examples">
+<summary><strong>R4 · Relation &amp; Logical Reasoning / 关系与逻辑推理 · Minning Town / 山海情</strong></summary>
+
+<div class="qa-body">
+
+<div class="qa-heading">
+
+<p class="qa-subcategory"><strong>Causal Inference / 因果推理</strong></p>
+
+<p class="qa-question"><strong>In the office at Xigebi Primary School, why have the brand-new computers been left unused in a corner even though the school urgently needs them?</strong><br><span lang="zh-CN">在西戈壁小学的办公室里，那几台崭新的电脑明明是学校急需的设备，却为何一直被闲置在角落里？</span></p>
+
+</div>
+
+<div class="qa-media">
+
+<p align="center"><img src="assets/qa_examples/R4.jpg" width="740" alt="Minning Town: still from the L2 scene for Relation &amp; Logical Reasoning"></p>
+
+</div>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">The donor asked them to wait for professionals to install the computers together<br><span lang="zh-CN">因为捐赠方要求等专业人员来统一安装</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">The computers are intended for upper-grade pupils, but the school does not have any yet<br><span lang="zh-CN">因为电脑是为高年级学生准备的，但目前还没有</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">The teachers lack the knowledge and skills to operate computers<br><span lang="zh-CN">因为学校的老师们缺乏操作电脑的知识和技能</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">The computers' operating systems and software have not yet been purchased<br><span lang="zh-CN">因为电脑的操作系统和软件还没有购买</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">Principal Bai believes using computers will harm pupils' eyesight<br><span lang="zh-CN">因为白校长认为使用电脑会影响学生视力</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">The school's electricity supply is insufficient to run the computers<br><span lang="zh-CN">因为学校电力供应不足，无法支持电脑运行</span></span></p></td></tr></tbody></table>
+
+<details class="qa-answer">
+<summary>Answer / 答案</summary>
+
+**C. The teachers lack the knowledge and skills to operate computers / 因为学校的老师们缺乏操作电脑的知识和技能**
+
+</details>
+
+</div>
+
+<!-- R4: DramaVQA/Bench_Data/minning_town.json | /335/Q&A/5 | L2: 0017-00:11:25.155_0017-00:12:50.373. Source annotation unchanged; second-language text is a display translation. -->
+
+</details>
+
+<details name="qa-examples">
+<summary><strong>C3 · Counting / 计数 · The Long Night / 沉默的真相</strong></summary>
+
+<div class="qa-body">
+
+<div class="qa-heading">
+
+<p class="qa-subcategory"><strong>Object Counting / 物体计数</strong></p>
+
+<p class="qa-question"><strong>In the rural classroom scene with teacher Hou Guiping, how many old-fashioned pendant lamps can clearly be seen hanging from the ceiling?</strong><br><span lang="zh-CN">在侯贵平老师的乡村教室片段中，可以明确看到天花板上悬挂着多少盏老式吊灯？</span></p>
+
+</div>
+
+<div class="qa-media">
+
+<p align="center"><img src="assets/qa_examples/C3.jpg" width="740" alt="The Long Night: still from the L2 scene for Counting"></p>
+
+</div>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">Two<br><span lang="zh-CN">两盏</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">One<br><span lang="zh-CN">一盏</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">There are no pendant lamps; they are fluorescent tubes<br><span lang="zh-CN">没有吊灯，是日光灯管</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">Four<br><span lang="zh-CN">四盏</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">Three<br><span lang="zh-CN">三盏</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">Six<br><span lang="zh-CN">六盏</span></span></p></td></tr>
+<tr><td width="50%" valign="top"><p class="qa-option"><strong>G.</strong> <span class="qa-option-copy">Five<br><span lang="zh-CN">五盏</span></span></p></td><td class="qa-empty"></td></tr></tbody></table>
+
+<details class="qa-answer">
+<summary>Answer / 答案</summary>
+
+**E. Three / 三盏**
+
+</details>
+
+</div>
+
+<!-- C3: DramaVQA/Bench_Data/the_long_night.json | /69/Q&A/0 | L2: 0004-00:13:08.200_0004-00:14:21.920. Source annotation unchanged; second-language text is a display translation. -->
+
+</details>
 
 <a name="data"></a>
 
