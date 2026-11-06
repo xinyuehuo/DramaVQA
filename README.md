@@ -63,7 +63,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 ## 📝 QA Examples
 
 <details name="qa-examples" open>
-<summary><strong>V16 · Visual Perception / 视觉感知 · Friends / 老友记</strong></summary>
+<summary><strong>Visual Perception / 视觉感知</strong> · Friends / 老友记</summary>
 
 <div class="qa-body">
 
@@ -77,18 +77,23 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="center"><img src="assets/qa_examples/V16.jpg" width="740" alt="Friends: still from the L2 scene for Visual Perception"></p>
+<p align="left"><img src="assets/qa_examples/V16.jpg" width="740" alt="Friends: still from the L2 scene for Visual Perception"></p>
 
 </div>
 
-<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">A black club symbol<br><span lang="zh-CN">黑色梅花符号</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">A white spade symbol<br><span lang="zh-CN">白色黑桃符号</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">A green circle symbol<br><span lang="zh-CN">绿色圆圈符号</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">A yellow diamond symbol<br><span lang="zh-CN">黄色菱形符号</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">A blue star symbol<br><span lang="zh-CN">蓝色星形符号</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">A red heart symbol<br><span lang="zh-CN">红色爱心符号</span></span></p></td></tr></tbody></table>
+<p class="qa-options-label"><strong>Options / 选项</strong></p>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="40" align="center" valign="middle"><strong>A</strong></td><td width="700" valign="top">A black club symbol<br><span lang="zh-CN">黑色梅花符号</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>B</strong></td><td width="700" valign="top">A white spade symbol<br><span lang="zh-CN">白色黑桃符号</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>C</strong></td><td width="700" valign="top">A green circle symbol<br><span lang="zh-CN">绿色圆圈符号</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>D</strong></td><td width="700" valign="top">A yellow diamond symbol<br><span lang="zh-CN">黄色菱形符号</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>E</strong></td><td width="700" valign="top">A blue star symbol<br><span lang="zh-CN">蓝色星形符号</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>F</strong></td><td width="700" valign="top">A red heart symbol<br><span lang="zh-CN">红色爱心符号</span></td></tr></tbody></table>
 
 <details class="qa-answer">
-<summary>Answer / 答案</summary>
+<summary><strong>Answer / 答案</strong></summary>
 
-**A. A black club symbol / 黑色梅花符号**
+<blockquote><p><strong>A. A black club symbol</strong><br><span lang="zh-CN">黑色梅花符号</span></p></blockquote>
 
 </details>
 
@@ -99,7 +104,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 </details>
 
 <details name="qa-examples">
-<summary><strong>S4 · Spatial Understanding / 空间理解 · Three-Body / 三体</strong></summary>
+<summary><strong>Spatial Understanding / 空间理解</strong> · Three-Body / 三体</summary>
 
 <div class="qa-body">
 
@@ -113,18 +118,23 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="center"><img src="assets/qa_examples/S4.jpg" width="740" alt="Three-Body: still from the L2 scene for Spatial Understanding"></p>
+<p align="left"><img src="assets/qa_examples/S4.jpg" width="740" alt="Three-Body: still from the L2 scene for Spatial Understanding"></p>
 
 </div>
 
-<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">On the starboard deck<br><span lang="zh-CN">右侧甲板</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">At the stern<br><span lang="zh-CN">船尾</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">In the middle of the ship<br><span lang="zh-CN">船体中部</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">On the port deck<br><span lang="zh-CN">左侧甲板</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">On top of the bridge<br><span lang="zh-CN">驾驶舱顶部</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">At the bow<br><span lang="zh-CN">船头</span></span></p></td></tr></tbody></table>
+<p class="qa-options-label"><strong>Options / 选项</strong></p>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="40" align="center" valign="middle"><strong>A</strong></td><td width="700" valign="top">On the starboard deck<br><span lang="zh-CN">右侧甲板</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>B</strong></td><td width="700" valign="top">At the stern<br><span lang="zh-CN">船尾</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>C</strong></td><td width="700" valign="top">In the middle of the ship<br><span lang="zh-CN">船体中部</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>D</strong></td><td width="700" valign="top">On the port deck<br><span lang="zh-CN">左侧甲板</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>E</strong></td><td width="700" valign="top">On top of the bridge<br><span lang="zh-CN">驾驶舱顶部</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>F</strong></td><td width="700" valign="top">At the bow<br><span lang="zh-CN">船头</span></td></tr></tbody></table>
 
 <details class="qa-answer">
-<summary>Answer / 答案</summary>
+<summary><strong>Answer / 答案</strong></summary>
 
-**F. At the bow / 船头**
+<blockquote><p><strong>F. At the bow</strong><br><span lang="zh-CN">船头</span></p></blockquote>
 
 </details>
 
@@ -135,7 +145,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 </details>
 
 <details name="qa-examples">
-<summary><strong>A7 · Action and Interaction / 动作与交互 · The Qin Empire II: Alliance / 大秦帝国之纵横</strong></summary>
+<summary><strong>Action and Interaction / 动作与交互</strong> · The Qin Empire II: Alliance / 大秦帝国之纵横</summary>
 
 <div class="qa-body">
 
@@ -149,19 +159,24 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="center"><img src="assets/qa_examples/A7.jpg" width="740" alt="The Qin Empire II: Alliance: still from the L2 scene for Action and Interaction"></p>
+<p align="left"><img src="assets/qa_examples/A7.jpg" width="740" alt="The Qin Empire II: Alliance: still from the L2 scene for Action and Interaction"></p>
 
 </div>
 
-<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">He draws his sword and holds it across the entrance<br><span lang="zh-CN">拔出佩剑横在门前</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">He kneels and clings to Zhao Yang's legs<br><span lang="zh-CN">跪在地上抱住昭阳的腿</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">He quickly closes the gate<br><span lang="zh-CN">迅速关上府门</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">He shouts loudly for the guards<br><span lang="zh-CN">大声呼喊卫兵</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">He grabs Zhao Yang's shoulder<br><span lang="zh-CN">用手抓住昭阳的肩膀</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">He spreads both arms to block the way<br><span lang="zh-CN">伸开双臂拦住去路</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>G.</strong> <span class="qa-option-copy">He throws his body against Zhao Yang<br><span lang="zh-CN">用身体撞向昭阳</span></span></p></td><td class="qa-empty"></td></tr></tbody></table>
+<p class="qa-options-label"><strong>Options / 选项</strong></p>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="40" align="center" valign="middle"><strong>A</strong></td><td width="700" valign="top">He draws his sword and holds it across the entrance<br><span lang="zh-CN">拔出佩剑横在门前</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>B</strong></td><td width="700" valign="top">He kneels and clings to Zhao Yang's legs<br><span lang="zh-CN">跪在地上抱住昭阳的腿</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>C</strong></td><td width="700" valign="top">He quickly closes the gate<br><span lang="zh-CN">迅速关上府门</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>D</strong></td><td width="700" valign="top">He shouts loudly for the guards<br><span lang="zh-CN">大声呼喊卫兵</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>E</strong></td><td width="700" valign="top">He grabs Zhao Yang's shoulder<br><span lang="zh-CN">用手抓住昭阳的肩膀</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>F</strong></td><td width="700" valign="top">He spreads both arms to block the way<br><span lang="zh-CN">伸开双臂拦住去路</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>G</strong></td><td width="700" valign="top">He throws his body against Zhao Yang<br><span lang="zh-CN">用身体撞向昭阳</span></td></tr></tbody></table>
 
 <details class="qa-answer">
-<summary>Answer / 答案</summary>
+<summary><strong>Answer / 答案</strong></summary>
 
-**F. He spreads both arms to block the way / 伸开双臂拦住去路**
+<blockquote><p><strong>F. He spreads both arms to block the way</strong><br><span lang="zh-CN">伸开双臂拦住去路</span></p></blockquote>
 
 </details>
 
@@ -172,7 +187,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 </details>
 
 <details name="qa-examples">
-<summary><strong>E5 · Event Understanding / 事件理解 · Ode to Joy / 欢乐颂</strong></summary>
+<summary><strong>Event Understanding / 事件理解</strong> · Ode to Joy / 欢乐颂</summary>
 
 <div class="qa-body">
 
@@ -186,19 +201,24 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="center"><img src="assets/qa_examples/E5.jpg" width="740" alt="Ode to Joy: still from the L2 scene for Event Understanding"></p>
+<p align="left"><img src="assets/qa_examples/E5.jpg" width="740" alt="Ode to Joy: still from the L2 scene for Event Understanding"></p>
 
 </div>
 
-<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">Wei Wei wins<br><span lang="zh-CN">魏渭取得了胜利</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">The machine malfunctions and the competition is interrupted<br><span lang="zh-CN">游戏机出现故障，比赛中断</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">They do not finish because they disagree about the rules<br><span lang="zh-CN">两人因规则分歧没有完成比赛</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">Andy wins by a narrow margin<br><span lang="zh-CN">安迪以微弱优势获胜</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">They tie<br><span lang="zh-CN">两人打成了平手</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">Andy gives up partway through<br><span lang="zh-CN">安迪中途放弃了比赛</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>G.</strong> <span class="qa-option-copy">The result is not shown<br><span lang="zh-CN">比赛结果没有显示</span></span></p></td><td class="qa-empty"></td></tr></tbody></table>
+<p class="qa-options-label"><strong>Options / 选项</strong></p>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="40" align="center" valign="middle"><strong>A</strong></td><td width="700" valign="top">Wei Wei wins<br><span lang="zh-CN">魏渭取得了胜利</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>B</strong></td><td width="700" valign="top">The machine malfunctions and the competition is interrupted<br><span lang="zh-CN">游戏机出现故障，比赛中断</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>C</strong></td><td width="700" valign="top">They do not finish because they disagree about the rules<br><span lang="zh-CN">两人因规则分歧没有完成比赛</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>D</strong></td><td width="700" valign="top">Andy wins by a narrow margin<br><span lang="zh-CN">安迪以微弱优势获胜</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>E</strong></td><td width="700" valign="top">They tie<br><span lang="zh-CN">两人打成了平手</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>F</strong></td><td width="700" valign="top">Andy gives up partway through<br><span lang="zh-CN">安迪中途放弃了比赛</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>G</strong></td><td width="700" valign="top">The result is not shown<br><span lang="zh-CN">比赛结果没有显示</span></td></tr></tbody></table>
 
 <details class="qa-answer">
-<summary>Answer / 答案</summary>
+<summary><strong>Answer / 答案</strong></summary>
 
-**A. Wei Wei wins / 魏渭取得了胜利**
+<blockquote><p><strong>A. Wei Wei wins</strong><br><span lang="zh-CN">魏渭取得了胜利</span></p></blockquote>
 
 </details>
 
@@ -209,7 +229,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 </details>
 
 <details name="qa-examples">
-<summary><strong>T1 · Temporal Understanding / 时间理解 · The Knockout / 狂飙</strong></summary>
+<summary><strong>Temporal Understanding / 时间理解</strong> · The Knockout / 狂飙</summary>
 
 <div class="qa-body">
 
@@ -223,18 +243,23 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="center"><img src="assets/qa_examples/T1.jpg" width="740" alt="The Knockout: still from the L2 scene for Temporal Understanding"></p>
+<p align="left"><img src="assets/qa_examples/T1.jpg" width="740" alt="The Knockout: still from the L2 scene for Temporal Understanding"></p>
 
 </div>
 
-<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">Tidies the shrine<br><span lang="zh-CN">整理神龛</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">Takes off his apron<br><span lang="zh-CN">脱下围裙</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">Blows out the incense<br><span lang="zh-CN">吹灭香火</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">Softly calls out to Yaoyao<br><span lang="zh-CN">轻声呼唤瑶瑶</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">Picks up the black cloth bag<br><span lang="zh-CN">提起黑布包</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">Puts on his coat<br><span lang="zh-CN">换上外套</span></span></p></td></tr></tbody></table>
+<p class="qa-options-label"><strong>Options / 选项</strong></p>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="40" align="center" valign="middle"><strong>A</strong></td><td width="700" valign="top">Tidies the shrine<br><span lang="zh-CN">整理神龛</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>B</strong></td><td width="700" valign="top">Takes off his apron<br><span lang="zh-CN">脱下围裙</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>C</strong></td><td width="700" valign="top">Blows out the incense<br><span lang="zh-CN">吹灭香火</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>D</strong></td><td width="700" valign="top">Softly calls out to Yaoyao<br><span lang="zh-CN">轻声呼唤瑶瑶</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>E</strong></td><td width="700" valign="top">Picks up the black cloth bag<br><span lang="zh-CN">提起黑布包</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>F</strong></td><td width="700" valign="top">Puts on his coat<br><span lang="zh-CN">换上外套</span></td></tr></tbody></table>
 
 <details class="qa-answer">
-<summary>Answer / 答案</summary>
+<summary><strong>Answer / 答案</strong></summary>
 
-**D. Softly calls out to Yaoyao / 轻声呼唤瑶瑶**
+<blockquote><p><strong>D. Softly calls out to Yaoyao</strong><br><span lang="zh-CN">轻声呼唤瑶瑶</span></p></blockquote>
 
 </details>
 
@@ -245,7 +270,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 </details>
 
 <details name="qa-examples">
-<summary><strong>R4 · Relation &amp; Logical Reasoning / 关系与逻辑推理 · Minning Town / 山海情</strong></summary>
+<summary><strong>Relation &amp; Logical Reasoning / 关系与逻辑推理</strong> · Minning Town / 山海情</summary>
 
 <div class="qa-body">
 
@@ -259,18 +284,23 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="center"><img src="assets/qa_examples/R4.jpg" width="740" alt="Minning Town: still from the L2 scene for Relation &amp; Logical Reasoning"></p>
+<p align="left"><img src="assets/qa_examples/R4.jpg" width="740" alt="Minning Town: still from the L2 scene for Relation &amp; Logical Reasoning"></p>
 
 </div>
 
-<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">The donor asked them to wait for professionals to install the computers together<br><span lang="zh-CN">因为捐赠方要求等专业人员来统一安装</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">The computers are intended for upper-grade pupils, but the school does not have any yet<br><span lang="zh-CN">因为电脑是为高年级学生准备的，但目前还没有</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">The teachers lack the knowledge and skills to operate computers<br><span lang="zh-CN">因为学校的老师们缺乏操作电脑的知识和技能</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">The computers' operating systems and software have not yet been purchased<br><span lang="zh-CN">因为电脑的操作系统和软件还没有购买</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">Principal Bai believes using computers will harm pupils' eyesight<br><span lang="zh-CN">因为白校长认为使用电脑会影响学生视力</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">The school's electricity supply is insufficient to run the computers<br><span lang="zh-CN">因为学校电力供应不足，无法支持电脑运行</span></span></p></td></tr></tbody></table>
+<p class="qa-options-label"><strong>Options / 选项</strong></p>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="40" align="center" valign="middle"><strong>A</strong></td><td width="700" valign="top">The donor asked them to wait for professionals to install the computers together<br><span lang="zh-CN">因为捐赠方要求等专业人员来统一安装</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>B</strong></td><td width="700" valign="top">The computers are intended for upper-grade pupils, but the school does not have any yet<br><span lang="zh-CN">因为电脑是为高年级学生准备的，但目前还没有</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>C</strong></td><td width="700" valign="top">The teachers lack the knowledge and skills to operate computers<br><span lang="zh-CN">因为学校的老师们缺乏操作电脑的知识和技能</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>D</strong></td><td width="700" valign="top">The computers' operating systems and software have not yet been purchased<br><span lang="zh-CN">因为电脑的操作系统和软件还没有购买</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>E</strong></td><td width="700" valign="top">Principal Bai believes using computers will harm pupils' eyesight<br><span lang="zh-CN">因为白校长认为使用电脑会影响学生视力</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>F</strong></td><td width="700" valign="top">The school's electricity supply is insufficient to run the computers<br><span lang="zh-CN">因为学校电力供应不足，无法支持电脑运行</span></td></tr></tbody></table>
 
 <details class="qa-answer">
-<summary>Answer / 答案</summary>
+<summary><strong>Answer / 答案</strong></summary>
 
-**C. The teachers lack the knowledge and skills to operate computers / 因为学校的老师们缺乏操作电脑的知识和技能**
+<blockquote><p><strong>C. The teachers lack the knowledge and skills to operate computers</strong><br><span lang="zh-CN">因为学校的老师们缺乏操作电脑的知识和技能</span></p></blockquote>
 
 </details>
 
@@ -281,7 +311,7 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 </details>
 
 <details name="qa-examples">
-<summary><strong>C3 · Counting / 计数 · The Long Night / 沉默的真相</strong></summary>
+<summary><strong>Counting / 计数</strong> · The Long Night / 沉默的真相</summary>
 
 <div class="qa-body">
 
@@ -295,19 +325,24 @@ Metadata extraction and hierarchical captioning are followed by QA generation, f
 
 <div class="qa-media">
 
-<p align="center"><img src="assets/qa_examples/C3.jpg" width="740" alt="The Long Night: still from the L2 scene for Counting"></p>
+<p align="left"><img src="assets/qa_examples/C3.jpg" width="740" alt="The Long Night: still from the L2 scene for Counting"></p>
 
 </div>
 
-<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="50%" valign="top"><p class="qa-option"><strong>A.</strong> <span class="qa-option-copy">Two<br><span lang="zh-CN">两盏</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>B.</strong> <span class="qa-option-copy">One<br><span lang="zh-CN">一盏</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>C.</strong> <span class="qa-option-copy">There are no pendant lamps; they are fluorescent tubes<br><span lang="zh-CN">没有吊灯，是日光灯管</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>D.</strong> <span class="qa-option-copy">Four<br><span lang="zh-CN">四盏</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>E.</strong> <span class="qa-option-copy">Three<br><span lang="zh-CN">三盏</span></span></p></td><td width="50%" valign="top"><p class="qa-option"><strong>F.</strong> <span class="qa-option-copy">Six<br><span lang="zh-CN">六盏</span></span></p></td></tr>
-<tr><td width="50%" valign="top"><p class="qa-option"><strong>G.</strong> <span class="qa-option-copy">Five<br><span lang="zh-CN">五盏</span></span></p></td><td class="qa-empty"></td></tr></tbody></table>
+<p class="qa-options-label"><strong>Options / 选项</strong></p>
+
+<table class="qa-options" aria-label="Options / 选项"><tbody><tr><td width="40" align="center" valign="middle"><strong>A</strong></td><td width="700" valign="top">Two<br><span lang="zh-CN">两盏</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>B</strong></td><td width="700" valign="top">One<br><span lang="zh-CN">一盏</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>C</strong></td><td width="700" valign="top">There are no pendant lamps; they are fluorescent tubes<br><span lang="zh-CN">没有吊灯，是日光灯管</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>D</strong></td><td width="700" valign="top">Four<br><span lang="zh-CN">四盏</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>E</strong></td><td width="700" valign="top">Three<br><span lang="zh-CN">三盏</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>F</strong></td><td width="700" valign="top">Six<br><span lang="zh-CN">六盏</span></td></tr>
+<tr><td width="40" align="center" valign="middle"><strong>G</strong></td><td width="700" valign="top">Five<br><span lang="zh-CN">五盏</span></td></tr></tbody></table>
 
 <details class="qa-answer">
-<summary>Answer / 答案</summary>
+<summary><strong>Answer / 答案</strong></summary>
 
-**E. Three / 三盏**
+<blockquote><p><strong>E. Three</strong><br><span lang="zh-CN">三盏</span></p></blockquote>
 
 </details>
 
