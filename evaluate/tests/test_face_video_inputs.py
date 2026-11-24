@@ -1,6 +1,7 @@
 """Face-video sampling has no optional source switch or face-redrawing path."""
 import json
 from pathlib import Path
+from PIL import ImageFont
 
 import numpy as np
 import pytest
@@ -48,7 +49,8 @@ def test_generated_commands_do_not_pass_removed_switch(task):
     if task != 'single-point':
         nested = prepare_frames.command(prepare_frames.argparse.Namespace(
             python='python', drama='sample', video_root=Path('media'),
-            output_root=Path('out'), sample_frames=256, target_width=392), Path('qa.json'))
+            output_root=Path('out'), sample_frames=256, target_width=392,
+            decode_threads=2), Path('qa.json'))
         assert not set(REMOVED_FLAGS) & set(nested)
 
 
@@ -59,7 +61,7 @@ def test_raw_video_alone_is_not_an_input_fallback(tmp_path):
     (raw / '0001.mp4').write_bytes(b'not a face video')
     with pytest.raises(FileNotFoundError, match='Required face video directory not found'):
         sampler.main(['--drama', 'sample', '--question_path', str(tmp_path / 'qa.json'),
-            '--model_name', 'fixture', '--serving_mode', 'local', '--only_gen_img',
+            '--model_name', 'fixture', '--only_gen_img',
             '--video_path', str(tmp_path / 'media'), '--image_path', str(tmp_path / 'out')])
 
 
@@ -67,8 +69,7 @@ def test_save_256_face_frames_without_fonts_or_face_metadata(tmp_path, monkeypat
     def no_fonts(*args, **kwargs):
         pytest.fail('Text-subtitle face frames must not load a rendering font')
 
-    monkeypatch.setattr(sampler, 'load_render_font', no_fonts)
-    monkeypatch.setattr(sampler.ImageFont, 'truetype', no_fonts)
+    monkeypatch.setattr(ImageFont, 'truetype', no_fonts)
     # A stray face metadata file must not be read or used to redraw existing labels.
     face = tmp_path / 'face_data'
     face.mkdir()
@@ -80,8 +81,6 @@ def test_save_256_face_frames_without_fonts_or_face_metadata(tmp_path, monkeypat
     engine = sampler.LLMInference.__new__(sampler.LLMInference)
     engine.target_width = 0
     engine.scale_factor = 1
-    engine.render_subtitle = False
-    engine.subtitle_text = True
     engine._get_drama_root = lambda _episode: str(tmp_path)
     frames = np.full((256, 28, 28, 3), (17, 79, 131), dtype=np.uint8)
     output = tmp_path / 'images/0001-window'
